@@ -231,5 +231,5 @@ module.exports = function createGroup(config) {
         add(config.assets);
     }
 
-    return Object.freeze(group);
+    return group;
 };

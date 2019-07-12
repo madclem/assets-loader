@@ -310,5 +310,5 @@ module.exports = function(options) {
         }
     });
 
-    return Object.freeze(loader);
+    return loader;
 };

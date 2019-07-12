@@ -568,7 +568,7 @@ module.exports = function createGroup(config) {
         add(config.assets);
     }
 
-    return Object.freeze(group);
+    return group;
 };
 
 },{"./emitter.js":3,"./loader":6}],5:[function(_dereq_,module,exports){
@@ -892,7 +892,7 @@ module.exports = function(options) {
         }
     });
 
-    return Object.freeze(loader);
+    return loader;
 };
 
 },{"./browser-has-blob.js":2,"./emitter.js":3,"./stats":7}],7:[function(_dereq_,module,exports){
